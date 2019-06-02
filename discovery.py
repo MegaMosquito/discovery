@@ -2,7 +2,6 @@
 # Discovery service container
 #
 # Written by Glen Darling, December 2018.
-# Copyright 2018, Glen Darling; all rights reserved.
 #
 
 from flask import Flask
