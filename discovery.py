@@ -43,6 +43,7 @@ class UdpListenThread(threading.Thread):
       for i in range(len(discovered)):
         if address == discovered[i]["address"]:
           del discovered[i]
+          break
       discovered.append(js)
       #print("\nDiscovered:\n{}".format(discovered))
 
